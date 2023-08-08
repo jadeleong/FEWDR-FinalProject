@@ -11,12 +11,45 @@
 
     <link rel="stylesheet" href="GML_Main.css">
 
+    <!-- Bootstrap Link for Nav Hamburger Navigation Menu -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
 </head>
 <body>
     <header id="GMLHeader">
-        <div class="navGradient">
+
+        <!-- Hamburger Navigation -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="\users\jade_\OneDrive\Desktop\GA HTML\Final Project\images\GML_White_Logo.webp" alt="Grow My Life Logo" width="250" height="">
+              </a>
+    
+          
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="#">For Practitioners</a>
+                  <a class="nav-link" href="#">For Enterprise</a>
+                  <a class="nav-link" href="#">Get in touch</a>
+                  <button><a class="nav-link" href="#">Try the app for free</a></button>
+    
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+
+        <!-- Old Navigation (Backup) -->
+        <!-- <div class="navGradient">
             <div class="logoContainer">
-                <a href="index.html"><img class="GMLLogo" src="images/GML_White_Logo.webp" alt="Grow My Life Logo"></a>
+                <a href="index.html">
+                    <img class="GMLLogo" src="images/GML_White_Logo.webp" alt="Grow My Life Logo">
+                </a>
             </div>
 
             <nav id="GMLNav" class="mainNav">
@@ -27,9 +60,9 @@
                     <ul class="btnUL"></ul>
                     <button id="btnGMLApp" class="greenBtn"><a href="http://app.growmylife.com.au/">Try the App for free</a></button>
                 </div>
-
             </nav>
-        </div>
+        </div> -->
+
     </header>
         
     <section id="GMLHeadline" class="headlineGradient sectpadding">
@@ -40,7 +73,8 @@
         <section id="GMLWhy" class="altBkgColor sectpadding">
             <h2>Why Grow My Life?</h2>
             
-            <iframe width="460" height="315" src="https://youtu.be/RLNjMmPY82w"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RLNjMmPY82w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
             <p>Our vision is a world where everyone can achieve growth and be guided and assisted in their journey.</p>
 
             <p>Our aim for Grow My Life is to reach a wide audience and enrich lives. We are building a trustworthy platform with expert content that supports personal and professional growth.</p>
@@ -131,5 +165,9 @@
     <footer id="GMLFooter" class="footerBar">
         <p>© Copyright 2021 Grow My Life Ideas™ ABN 60006719848 - A wholly owned business of Calliston Consultants Pty Ltd - Site powered byTektonic Labs</p>
     </footer>
+
+
+<!-- Bootstrap for Nav Hamburger Navigation Menu  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

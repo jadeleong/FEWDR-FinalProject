@@ -1,16 +1,19 @@
 
 const inputName = document.querySelector('#inputName')
+const inputEmail = document.querySelector('#inputEmail')
+const inputMsg = document.querySelector('#inputMsg')
 
 
 function clearMsg(event) {
     event.preventDefault()
 
-    inputName.value = "Nothing"
-
-    console.log('Working!')
+    inputName.value = ""
+    inputEmail.value = ""
+    inputMsg.value = ""
+    
 }
 
 const formContact = document.querySelector('#GMLContact')
 const btnClear = document.querySelector('#clearMsg')
 
-formContact.addEventListener('submit', clearMsg)
+btnClear.addEventListener('click', clearMsg)
