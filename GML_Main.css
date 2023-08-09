@@ -44,8 +44,8 @@ a {
 
 
 a:hover {
-    font-style:italic;
-    color: #E2F2FA;
+    font-weight:bold;
+    color: #4DD6A9;
 }
 
 
@@ -78,6 +78,7 @@ a.greenBtn {
 
 .altBkgColor { 
     background: #E2F2FA;
+    padding-bottom: 1rem;
 }
 
 
@@ -96,7 +97,7 @@ a.greenBtn {
 
 .footerBar { 
     background-color: black;
-    font-size: 0.5px;
+    font-size: 0.2rem;
     padding: 0.75rem;
     color: white;
 }
@@ -139,7 +140,6 @@ a.greenBtn {
 
 
 /* gradient for navigation and headline(hero) */
-
 .navGradient { 
     background-image: linear-gradient(to left,#7A73E4, #1B8AF9);
     height: 10rem;
@@ -173,11 +173,20 @@ a.greenBtn {
     text-align: center;
 }
 
+
+
 /* Form Styling */
+.fsName .fsEmail .fsMsg { 
+    display: block;
+}
+
+.inputMsg { 
+    vertical-align: top;
+}
+
 fieldset { 
     padding: 1rem;
 }
-
 
 legend { 
     padding: 0.5rem;
@@ -211,6 +220,7 @@ input[type=submit]:hover {
 
 
 
+
 /* Hamburger Navigation CSS Styling */
 .container-fluid { 
     background-image: linear-gradient(to left,#7A73E4, #1B8AF9);
@@ -221,19 +231,29 @@ input[type=submit]:hover {
     padding: 0;
 }
 
+.navbar-nav { 
+    align-items: flex-end;
+    padding-bottom: 1rem;
+}
+
   .navbar-toggler { 
       border: 0;
       
   }
 
-  .navbar-nav { 
-      text-align: right;
+  .navbar-collapse.show .navbar-nav { 
       background-image: linear-gradient(to left,#7A73E4, #1B8AF9);
       margin: 0;
       
   }
 
+.navbar-collapse { 
+    flex-grow: 0;
+}
 
+.nav-link {
+    color: white;
+}
 
 
 
@@ -247,7 +267,7 @@ input[type=submit]:hover {
     }
 
     h2 { 
-        font-size: 1rem;
+        font-size: 1.5rem;
         padding: 2rem;
     }
 
@@ -255,7 +275,7 @@ input[type=submit]:hover {
 
 
 /* screen size between 600 or greater (i.e. desktop) */
-@media(min-width: 780px) {
+@media(min-width: 740px) {
 
     h1 {
         font-size: 3rem;
@@ -301,21 +321,21 @@ input[type=submit]:hover {
         padding: 1rem;
     }
 
-    .nav
+    .GMLWhy { 
+        display: flex;
+    }
 
 
-/* Subpages (Practitioner, Enterprise) video and content styling */
+/* Pages (Practitioner, Enterprise) video and content styling */
 
-    .subPageVideoContent { 
+    .videoContentSidebySide { 
         display: flex;
         align-items: center;
         justify-content: space-around;
-        
-        
-
     }
 
     .subPageContent { 
+        display: block;
         margin-left: 1rem;
     }
 
