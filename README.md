@@ -12,5 +12,3 @@ I've recreated the 4 original pages (Landing, Practitioners, Enterprise, Contact
 - hamburger menu
 - JS to clear the forms.
 The forms currently have no actions as I'll have to speak to the GML team about what they want the form to do and how they want to capture the data.
-
-Unfortunately, I didn't have any capacity to build an additional page - with some interactivity for the user side (the start of the future pages/content).  
