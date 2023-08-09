@@ -2,6 +2,15 @@
 FEWDR Final Project
 
 Final Project Proposal
-My final project is redeveloping a web "application" website called 'Grow My Life'.  The app is supporting people to achieve personal growth etc to achieve life satisfaction.  The website is the support/marketing side for the app (still being built), and also where they can "download" the app.  In the future, the website will also have additional content to support the life satisfaction goals - i.e. how to set goals, etc.
-Anticipated pages are - Landing page (which might have lots of content vertically), and three other pages including a contact page. Hoping to also build in responsive design.
-I'm also hoping to build in some interactivity on the user side (i.e., helping them to set their goals etc). But that might be a stretch goal... :)
+My final project is redeveloping an existing website called Grow My Life (www.growmylife.com.au) for a live client.  
+
+The website is the support/marketing side for interested parties to learn more about the Grow My Life app (still in development), and also download the app. 
+The plan is in the future, the website will have additional content (with interactive elements) to support the GML app. 
+
+I've recreated the 4 original pages (Landing, Practitioners, Enterprise, Contact) to include: 
+- responsive design with a mobile first approach
+- hamburger menu
+- JS to clear the forms.
+The forms currently have no actions as I'll have to speak to the GML team about what they want the form to do and how they want to capture the data.
+
+Unfortunately, I didn't have any capacity to build an additional page - with some interactivity for the user side (the start of the future pages/content).  
