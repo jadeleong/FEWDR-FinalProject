@@ -10,6 +10,7 @@ h1 {
     font-size: 2rem;
     color: white;
     text-align: center;
+    margin: 0;
 }
 
 
@@ -48,6 +49,10 @@ a:hover {
     color: #4DD6A9;
 }
 
+
+input { 
+    color: #2B2B2B;
+}
 
 .mainNav { 
     color: white;
@@ -157,6 +162,9 @@ a.greenBtn {
     color: white;
     text-align: center;
     padding-top: 2rem;
+    display: flex;
+    align-items: center;
+
 }
 
 
@@ -200,7 +208,7 @@ input[type=text], textarea {
     margin: 0.5rem 0;
     border: 2px solid #ccc;
     border-radius: 4px;
-    color: grey;
+    color: #2B2B2B;
 }
 
 
